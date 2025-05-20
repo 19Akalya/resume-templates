@@ -1,10 +1,18 @@
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import { useState } from 'react'
+import {Button} from "@mui/material"
+import {Navigate, useNavigate} from "react-router-dom"
 
 function Index(){ 
-    const [count, setCount] = useState(0)
+  const navigate = useNavigate();
     return (<>
+    <h1>Welcome To Resume Template Management</h1>
+    <p>Browse.customize,and manage your resume templates easily.</p>
+    <Button onClick={()=> navigate("/adminlog")}>Admin Login</Button>
+    <Button onClick={()=> navigate("/userlog")}>User Login</Button>
+   </>);
+    /* return (<>
     <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
@@ -25,7 +33,7 @@ function Index(){
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
-    </> );
+    </> ); */
 }
 
 export default Index;
