@@ -8,7 +8,7 @@ function Index(){
   const navigate = useNavigate();
     return (<>
     <h1>Welcome To Resume Template Management</h1>
-    <p>Browse.customize,and manage your resume templates easily.</p>
+    <p>Browse,customize,and manage your resume templates easily.</p>
     <Button onClick={()=> navigate("/adminlog")}>Admin Login</Button>
     <Button onClick={()=> navigate("/userlog")}>User Login</Button>
    </>);

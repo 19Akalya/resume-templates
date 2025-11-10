@@ -1,0 +1,58 @@
+nav {
+    background-color: aqua;
+    position: fixed;
+    top:0px;
+    left:0px;
+    height:5vh ;
+    width:100% ;
+    margin:0px ;
+    display: flex;
+}
+nav div {
+    flex: 1 0;
+}
+div.title h3 {
+    padding:0px;
+    margin:0px;
+}
+p{
+    display:flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-evenly;
+}
+
+.adminpanel{
+    margin:10px;
+    margin-top: auto;
+    margin-left:auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    align-items: stretch;
+}
+
+.btn.medium {
+    height: auto; 
+    width: auto; 
+    border-radius:15px;
+    margin: 1.5rem;
+
+    
+}
+.card{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    min-height:80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right:-50%;
+    bottom:-20%;
+    transform: translate(-50%,-50%);
+}
+
+.background-image {
+    background-image: url('../images/modernresumes.webp');  
+}

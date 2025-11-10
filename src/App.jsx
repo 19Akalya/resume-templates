@@ -6,6 +6,7 @@ import Index from "./index.jsx"
 import AdDashboardpage from"./Dashboard.jsx"
 import AddNewDocterPage from './DoctorPage.jsx'
 import Userpanel from "./userpanel.jsx"
+import Adminpanel from"./adminpanel.jsx"
 function App() {
   return (
     <>
@@ -18,6 +19,7 @@ function App() {
         <Route index exact path="/" element={<Index/>}/>
         <Route path="/addnewdocter" element={<AddNewDocterPage/>}/>
         <Route path="/userpanel" element={<Userpanel/>}/>
+        <Route path="/adminpanel" element={<Adminpanel/>}/>
     </Routes>
     </BrowserRouter>
     </>

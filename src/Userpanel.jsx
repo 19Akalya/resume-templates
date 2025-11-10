@@ -5,19 +5,19 @@ import './assets/css/userpanel.css';
 function userpanel(){
     const navigate=useNavigate();
     return(
-        <>
+        <div className='userpanel'>
         <nav>
-            <div className='title'><h3>Resume Management Panel</h3></div>
+         <div className='title'><h3>Resume Management Panel</h3></div>
          <div className='links'><a href='/'>Home</a>
-        <a href='/profile'>My Profile</a>
-        <a href='/logout'>Logout</a></div>   
-        
+         <a href='/profile'>My Profile</a>
+         <a href='/logout'>Logout</a></div>
         </nav>
-        <div className='main-content'>
-        <h5>Welcome To Resume Templates</h5>
+        <div className='main-content'></div>
+        <div className='card background-image'>
+        <h2>Welcome To Resume Templates Management</h2>
         <Button onClick={()=>navigate("/userpanel")}>view Templates</Button>
         </div>
-       </>
+        </div>
     )
 }
 export default userpanel; 

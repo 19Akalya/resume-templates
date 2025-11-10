@@ -22,6 +22,12 @@ div.links {
     justify-content: space-evenly;
 }
 div.main-content{
-    margin:25% 25%;
+    text-align: center;
+    margin:30% 10%;
+    
 
 } 
+.background-image {
+    background-image:url('../images/ResumeforFreshers.webp') ;
+
+}
